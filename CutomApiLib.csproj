@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>CustomApiLib</PackageId>
+    <Version>0.0.0.3</Version>
+    <Authors>Ben</Authors>
+    <Company>Ben</Company>
+    <Description>Mak response data and  to error message  same format</Description>
+    <PackageProjectUrl>https://github.com/Benknightdark/CustomApiResLib</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Benknightdark/CustomApiResLib</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <FileVersion>0.0.0.0</FileVersion>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+    <PackageReleaseNotes>
+    Mak response data and  to error message  same format
+    Document => https://github.com/Benknightdark/CustomApiResLib
+    </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.3" />
+    <PackageReference Include="System.Text.Json" Version="4.7.1" />
+  </ItemGroup>
+
+</Project>
