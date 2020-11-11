@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <PackageId>CustomApiLib</PackageId>
-    <Version>0.0.0.3</Version>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>CustomApiLib5</PackageId>
+    <Version>5.0.0.0</Version>
     <Authors>Ben</Authors>
     <Company>Ben</Company>
-    <Description>Mak response data and  to error message  same format</Description>
+    <Description>Mak response data and  to error message  same format (for dotnet5)</Description>
     <PackageProjectUrl>https://github.com/Benknightdark/CustomApiResLib</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Benknightdark/CustomApiResLib</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
@@ -14,16 +14,17 @@
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
     <PackageReleaseNotes>
     Mak response data and  to error message  same format
-    Document => https://github.com/Benknightdark/CustomApiResLib
+    Document =&gt; https://github.com/Benknightdark/CustomApiResLib
     </PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics" Version="2.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.1.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.3" />
-    <PackageReference Include="System.Text.Json" Version="4.7.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0-preview.2" />
+    <!-- <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" /> -->
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0" />
+    <PackageReference Include="System.Text.Json" Version="5.0.0" />
   </ItemGroup>
 
 </Project>
