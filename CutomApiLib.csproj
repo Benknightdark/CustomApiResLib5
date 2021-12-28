@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageId>CustomApiLib5</PackageId>
-    <Version>6.0.0.1<Version>
+    <Version>6.0.0.2</Version>
     <Authors>Ben</Authors>
     <Company>Ben</Company>
     <Description>Mak response data and  to error message  same format (for dotnet5)</Description>
