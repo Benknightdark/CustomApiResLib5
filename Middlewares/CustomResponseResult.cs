@@ -1,15 +1,11 @@
 ﻿using CutomApiLib.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Filters;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Linq;
 using CustomWebApiLib.Models;
+using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CutomApiLib.Middlewares
 {
-    public class CustomResponseResult : Attribute, IActionFilter
+    public class CustomResponseResult : IActionFilter
     {
         void IActionFilter.OnActionExecuted(ActionExecutedContext context)
         {
